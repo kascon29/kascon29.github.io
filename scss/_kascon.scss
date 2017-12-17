@@ -7,3 +7,17 @@
     padding-top: 70px;
 }
 
+.footer {
+    color: rgba(white, 0.7);
+    height: 150px;
+}
+
+a.fa {
+    color:white;
+    transition: 1s;
+    @include hover-focus{
+        text-decoration:none;
+        color: #cccccc;
+    }
+}
+

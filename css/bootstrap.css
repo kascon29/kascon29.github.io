@@ -2895,7 +2895,7 @@ tbody.collapse.show {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: rgba(255, 255, 255, 0.9); }
 .navbar-light .navbar-toggler {
   color: rgba(255, 255, 255, 0.7);
   border-color: rgba(0, 0, 0, 0.1); }
@@ -2904,9 +2904,9 @@ tbody.collapse.show {
 .navbar-light .navbar-text {
   color: rgba(255, 255, 255, 0.7); }
   .navbar-light .navbar-text a {
-    color: rgba(0, 0, 0, 0.9); }
+    color: rgba(255, 255, 255, 0.9); }
     .navbar-light .navbar-text a:focus, .navbar-light .navbar-text a:hover {
-      color: rgba(0, 0, 0, 0.9); }
+      color: rgba(255, 255, 255, 0.9); }
 
 .navbar-dark .navbar-brand {
   color: #fff; }
@@ -6355,5 +6355,16 @@ a.text-dark:focus, a.text-dark:hover {
 
 .anchor {
   padding-top: 70px; }
+
+.footer {
+  color: rgba(255, 255, 255, 0.7);
+  height: 150px; }
+
+a.fa {
+  color: white;
+  transition: 1s; }
+  a.fa:focus, a.fa:hover {
+    text-decoration: none;
+    color: #cccccc; }
 
 /*# sourceMappingURL=bootstrap.css.map */

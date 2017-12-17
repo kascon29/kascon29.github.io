@@ -3,20 +3,21 @@ This website for KASCON 29 was created using Bootstrap v4 by Kevin Lee + insert 
 
 ### Necessary To-Do
 * Fix the links in the hotel cards to open to new tab 
-* Make the hover over icon like personal website 
+* Add a tab icon
 * Include proper documentation for this README 
+* Replace image of bird with Northwestern picture **DONE**
+* Make the hover over icon like personal website **DONE**
+* Fix the scrollspy coloring **DONE**
+* Make Facebook icon white **DONE**
+* Make bottom banner smaller **DONE**
+* Give the website a title **DONE**
 * Standardize the hotel image size, preferably square? **DONE** 
 * Fix the FAQ functionality **DONE** 
 * Add functionality to cute social media icons **DONE** 
 * Fix the padding for all the sections **DONE** 
 * Scroll anchor goes too far **DONE** 
-* Change color of header/footer
-* Make navbar link text white
-* Replace image of bird with Northwestern picture
-* Make Facebook icon white
-* Make bottom banner smaller
-
-
+* Change color of header/footer **DONE**
+* Make navbar link text white **DONE** 
 
 ### Website Sections
 * About KASCON **WIP**
