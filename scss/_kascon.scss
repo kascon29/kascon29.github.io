@@ -18,7 +18,10 @@
 .footer {
     color: rgba(white, 0.7);
     height: 150px;
+    background-color: #250A41;
 }
+
+//this is for the Facebook icon at the bottom
 
 a.fa {
     color:white;
@@ -30,39 +33,52 @@ a.fa {
 }
 
 body {
-    background-color: white; //this needs to change as appropriate to contact div
+    background-color: $motif; //this needs to change as appropriate to contact div
+    h1, h3, p {
+        color:white;
+    }
+}
+
+.gradbg {
+    background: linear-gradient(#250A41, $motif);
 }
 
 .container {
-    background-color: white;
+    background-color: transparent;
 }
 
 .container-fluid {
-    background-color: white;
+    //background-color: white;
+    //background-image: linear-gradient(red, #f06d06);
+    h1, p {
+        color:white;
+    }
 }
 
 #first {
-    background-color: #250A41;
+    background: linear-gradient(#250A41, $motif);
 }
 
-#second {
-    background-color: #4F2d83;
-}
+// .rest {
+//     background-color: $motif;
+//     h1, p {
+//         color:white;
+//     }
+// }
 
+// #about {
+//     background-color: #250A41;
+//     h1, p {
+//         color:white;
+//     }
+// }
 
-#about {
-    background-color: #250A41;
-    h1, p {
-        color:white;
-    }
-}
-
-#conf {
-    background-color: #4F2d83;
-    h1, p {
-        color:white;
-    }
-}
+// #conf {
+//     background-color: #4F2d83;
+//     h1, p {
+//         color:white;
+//     }
+// }
 
 // don't mind these
 // #250A41

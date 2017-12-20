@@ -6362,7 +6362,8 @@ a.text-dark:focus, a.text-dark:hover {
 
 .footer {
   color: rgba(255, 255, 255, 0.7);
-  height: 150px; }
+  height: 150px;
+  background-color: #250A41; }
 
 a.fa {
   color: white;
@@ -6372,28 +6373,20 @@ a.fa {
     color: #cccccc; }
 
 body {
-  background-color: white; }
+  background-color: #5F4B8B; }
+  body h1, body h3, body p {
+    color: white; }
+
+.gradbg {
+  background: linear-gradient(#250A41, #5F4B8B); }
 
 .container {
-  background-color: white; }
+  background-color: transparent; }
 
-.container-fluid {
-  background-color: white; }
+.container-fluid h1, .container-fluid p {
+  color: white; }
 
 #first {
-  background-color: #250A41; }
-
-#second {
-  background-color: #4F2d83; }
-
-#about {
-  background-color: #250A41; }
-  #about h1, #about p {
-    color: white; }
-
-#conf {
-  background-color: #4F2d83; }
-  #conf h1, #conf p {
-    color: white; }
+  background: linear-gradient(#250A41, #5F4B8B); }
 
 /*# sourceMappingURL=bootstrap.css.map */
