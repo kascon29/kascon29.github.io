@@ -5,10 +5,14 @@
 
 .anchor {
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .header {
+    //height:100%;
     width:100%;
+    //overflow:hidden;
+    //background-color: black;
 }
 
 .footer {
@@ -26,7 +30,7 @@ a.fa {
 }
 
 body {
-    background-color: white; //this needs to change as appropriate to contact box
+    background-color: white; //this needs to change as appropriate to contact div
 }
 
 .container {
@@ -35,6 +39,29 @@ body {
 
 .container-fluid {
     background-color: white;
+}
+
+#first {
+    background-color: #250A41;
+}
+
+#second {
+    background-color: #4F2d83;
+}
+
+
+#about {
+    background-color: #250A41;
+    h1, p {
+        color:white;
+    }
+}
+
+#conf {
+    background-color: #4F2d83;
+    h1, p {
+        color:white;
+    }
 }
 
 // don't mind these

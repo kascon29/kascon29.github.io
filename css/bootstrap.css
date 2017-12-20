@@ -6354,7 +6354,8 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important; }
 
 .anchor {
-  padding-top: 70px; }
+  padding-top: 70px;
+  padding-bottom: 70px; }
 
 .header {
   width: 100%; }
@@ -6378,5 +6379,21 @@ body {
 
 .container-fluid {
   background-color: white; }
+
+#first {
+  background-color: #250A41; }
+
+#second {
+  background-color: #4F2d83; }
+
+#about {
+  background-color: #250A41; }
+  #about h1, #about p {
+    color: white; }
+
+#conf {
+  background-color: #4F2d83; }
+  #conf h1, #conf p {
+    color: white; }
 
 /*# sourceMappingURL=bootstrap.css.map */
