@@ -6356,6 +6356,9 @@ a.text-dark:focus, a.text-dark:hover {
 .anchor {
   padding-top: 70px; }
 
+.header {
+  width: 100%; }
+
 .footer {
   color: rgba(255, 255, 255, 0.7);
   height: 150px; }
@@ -6366,5 +6369,14 @@ a.fa {
   a.fa:focus, a.fa:hover {
     text-decoration: none;
     color: #cccccc; }
+
+body {
+  background-color: white; }
+
+.container {
+  background-color: white; }
+
+.container-fluid {
+  background-color: white; }
 
 /*# sourceMappingURL=bootstrap.css.map */

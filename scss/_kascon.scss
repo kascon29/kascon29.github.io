@@ -7,6 +7,10 @@
     padding-top: 70px;
 }
 
+.header {
+    width:100%;
+}
+
 .footer {
     color: rgba(white, 0.7);
     height: 150px;
@@ -21,3 +25,20 @@ a.fa {
     }
 }
 
+body {
+    background-color: white; //this needs to change as appropriate to contact box
+}
+
+.container {
+    background-color: white;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+// don't mind these
+// #250A41
+// #4f2d83
+// #5b3c8c
+// #775ea0
