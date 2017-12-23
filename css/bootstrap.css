@@ -6389,4 +6389,9 @@ body {
 #first {
   background: linear-gradient(#250A41, #5F4B8B); }
 
+#test {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); }
+
 /*# sourceMappingURL=bootstrap.css.map */

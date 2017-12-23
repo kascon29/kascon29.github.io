@@ -59,6 +59,12 @@ body {
     background: linear-gradient(#250A41, $motif);
 }
 
+#test {
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
 // .rest {
 //     background-color: $motif;
 //     h1, p {
