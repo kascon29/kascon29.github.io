@@ -6386,10 +6386,13 @@ body {
 .container-fluid h1, .container-fluid p {
   color: white; }
 
+.card-body p {
+  color: black; }
+
 #first {
   background: linear-gradient(#250A41, #5F4B8B); }
 
-#test {
+#navi {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75); }

@@ -9,10 +9,7 @@
 }
 
 .header {
-    //height:100%;
     width:100%;
-    //overflow:hidden;
-    //background-color: black;
 }
 
 .footer {
@@ -48,10 +45,14 @@ body {
 }
 
 .container-fluid {
-    //background-color: white;
-    //background-image: linear-gradient(red, #f06d06);
     h1, p {
         color:white;
+    }
+}
+
+.card-body{
+    p {
+        color:black;
     }
 }
 
@@ -59,32 +60,11 @@ body {
     background: linear-gradient(#250A41, $motif);
 }
 
-#test {
+#navi {
     -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
 }
-
-// .rest {
-//     background-color: $motif;
-//     h1, p {
-//         color:white;
-//     }
-// }
-
-// #about {
-//     background-color: #250A41;
-//     h1, p {
-//         color:white;
-//     }
-// }
-
-// #conf {
-//     background-color: #4F2d83;
-//     h1, p {
-//         color:white;
-//     }
-// }
 
 // don't mind these
 // #250A41
