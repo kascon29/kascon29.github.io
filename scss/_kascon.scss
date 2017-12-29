@@ -21,6 +21,9 @@
     font-weight: bold;
 }
 
+hr {
+    color:white;
+}
 // a fixed nav bar at top forces us to offset our anchor from the top //
 
 .anchor {
@@ -35,8 +38,8 @@
 .footer {
     color: rgba(white, 0.7);
     height: 150px;
-    //background-color: #250A41;
-    background-color: $motif;
+    background-color: #250A41;
+    //background-color: $motif;
 }
 
 //this is for the Facebook icon at the bottom
@@ -82,6 +85,23 @@ body {
 #first {
     //background: linear-gradient(#250A41, $motif);
 }
+
+#second, #seventh {
+    background: $motif;
+}
+
+#third, #sixth {
+    background: #5b3c8c
+}
+
+#fourth {
+    background: #775ea0
+}
+
+#fifth {
+    background:#250A41;
+}
+
 
 #navi {
     -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);

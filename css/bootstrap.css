@@ -6363,6 +6363,9 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: 'Avenir';
   src: url("fonts/AvenirNext_Text/AvenirNext-DemiBold-03.ttf") format("truetype");
   font-weight: bold; }
+hr {
+  color: white; }
+
 .anchor {
   padding-top: 70px;
   padding-bottom: 70px; }
@@ -6373,7 +6376,7 @@ a.text-dark:focus, a.text-dark:hover {
 .footer {
   color: rgba(255, 255, 255, 0.7);
   height: 150px;
-  background-color: #5F4B8B; }
+  background-color: #250A41; }
 
 a.fa {
   color: white;
@@ -6399,6 +6402,18 @@ body {
 .card-body p {
   color: black;
   font-family: 'Avenir', sans-serif; }
+
+#second, #seventh {
+  background: #5F4B8B; }
+
+#third, #sixth {
+  background: #5b3c8c; }
+
+#fourth {
+  background: #775ea0; }
+
+#fifth {
+  background: #250A41; }
 
 #navi {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
