@@ -83,11 +83,14 @@ body {
     //background: linear-gradient(#250A41, $motif);
 }
 
-
 #navi {
     -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+#icon {
+    height:30px;
 }
 
 // don't mind these
