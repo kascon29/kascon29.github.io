@@ -1,9 +1,13 @@
 # kascon29-website
-This website for KASCON 29 was created using Bootstrap v4 by Kevin Lee + insert contributor name here. Last updated December 15, 2017.
+This website for KASCON 29 was created using Bootstrap v4 by Kevin Lee + insert contributor name here. Last updated December 28, 2017.
 
 ### Necessary To-Do
 * Fix the links in the hotel cards to open to new tab 
+* Make hotel card background transparent
+* Look at ECAASU for "buttons" (they aren't actually buttons)
 * Add a tab icon
+* Make background the dark purple? And make the footer light purple
+* corporate sponsors and personal donations
 * Include proper documentation for this README 
 * Replace image of bird with Northwestern picture **DONE**
 * Make the hover over icon like personal website **DONE**

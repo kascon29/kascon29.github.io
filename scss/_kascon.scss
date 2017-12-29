@@ -1,6 +1,26 @@
 // lazy developer means all customizations are falling under here //
 // note - bg-primary is currently the default purple //
 
+// *** FONTS *** //
+@font-face{
+    font-family: 'Crimson';
+    src: url('fonts/Crimson_Text/Crimson-TextRegular.ttf')
+         format('truetype');
+}
+
+@font-face{
+    font-family: 'Avenir';
+    src: url('fonts/AvenirNext_Text/AvenirNext-Regular-08.ttf')
+         format('truetype');
+}
+
+@font-face{
+    font-family: 'Avenir';
+    src: url('fonts/AvenirNext_Text/AvenirNext-DemiBold-03.ttf')
+         format('truetype');
+    font-weight: bold;
+}
+
 // a fixed nav bar at top forces us to offset our anchor from the top //
 
 .anchor {
@@ -15,14 +35,15 @@
 .footer {
     color: rgba(white, 0.7);
     height: 150px;
-    background-color: #250A41;
+    //background-color: #250A41;
+    background-color: $motif;
 }
 
 //this is for the Facebook icon at the bottom
 
 a.fa {
     color:white;
-    transition: 1s;
+    transition: 0.25s;
     @include hover-focus{
         text-decoration:none;
         color: #cccccc;
@@ -30,7 +51,8 @@ a.fa {
 }
 
 body {
-    background-color: $motif; //this needs to change as appropriate to contact div
+    //background-color: $motif; //this needs to change as appropriate to contact div
+    background-color: #250A41;
     h1, h3, p {
         color:white;
     }
@@ -53,12 +75,14 @@ body {
 .card-body{
     p {
         color:black;
+        font-family: 'Avenir', sans-serif;
     }
 }
 
 #first {
-    background: linear-gradient(#250A41, $motif);
+    //background: linear-gradient(#250A41, $motif);
 }
+
 
 #navi {
     -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
