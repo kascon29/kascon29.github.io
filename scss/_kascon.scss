@@ -83,23 +83,15 @@ body {
 }
 
 #first {
-    //background: linear-gradient(#250A41, $motif);
+    background: linear-gradient(#240A40, #775ea0);
 }
 
-#second, #seventh {
-    background: $motif;
+#second, #fourth, #sixth, #eighth {
+    background: #5b3c8c;
 }
 
-#third, #sixth {
-    background: #5b3c8c
-}
-
-#fourth {
-    background: #775ea0
-}
-
-#fifth {
-    background:#240A40;
+#third, #fifth, #seventh {
+    background: #775ea0;
 }
 
 

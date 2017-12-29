@@ -6403,17 +6403,14 @@ body {
   color: black;
   font-family: 'Avenir', sans-serif; }
 
-#second, #seventh {
-  background: #5F4B8B; }
+#first {
+  background: linear-gradient(#240A40, #775ea0); }
 
-#third, #sixth {
+#second, #fourth, #sixth, #eighth {
   background: #5b3c8c; }
 
-#fourth {
+#third, #fifth, #seventh {
   background: #775ea0; }
-
-#fifth {
-  background: #240A40; }
 
 #navi {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
