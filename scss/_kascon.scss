@@ -21,9 +21,6 @@
     font-weight: bold;
 }
 
-hr {
-    color:white;
-}
 // a fixed nav bar at top forces us to offset our anchor from the top //
 
 .anchor {
@@ -56,14 +53,24 @@ a.fa {
 body {
     //background-color: $motif; //this needs to change as appropriate to contact div
     background-color: #240A40;
+    font-family: 'Crimson', serif;
     h1, h3, p {
         color:white;
     }
 }
 
-.gradbg {
-    background: linear-gradient(#240A40, $motif);
+h1 {
+    font-family: 'Avenir', sans-serif;
+    font-weight: bold;
 }
+
+h3, strong {
+    font-family: 'Avenir', sans-serif;
+}
+
+// .gradbg {
+//     background: linear-gradient(#240A40, $motif);
+// }
 
 .container {
     background-color: transparent;
@@ -82,18 +89,40 @@ body {
     }
 }
 
+.parallax { 
+    /* The image used */
+    background-image: url("../img/KASCON_Logo_Sky-02.png");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #first {
     background: linear-gradient(#240A40, #775ea0);
 }
 
-#second, #fourth, #sixth, #eighth {
+#fourth, #sixth, #eighth {
     background: #5b3c8c;
+}
+
+#second {
+    background: #5b3c8c
+    // background: transparent;
+    // h1, p{
+    //     color:black;
+    // }
+
 }
 
 #third, #fifth, #seventh {
     background: #775ea0;
 }
-
 
 #navi {
     -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
