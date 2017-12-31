@@ -6,10 +6,9 @@ This website for KASCON 29 was created using Bootstrap v4 by Kevin Lee. Last upd
 * [smoothscroll.js](https://github.com/cferdinandi/smooth-scroll "smoothscroll.js")
 
 ### Necessary To-Do
-* Buttons for registration as well as corporate sponsors to apply 
-* Look at ECAASU for "buttons" (they aren't actually buttons)
+* Better button for registration?
 * Revamp hotel section and add actual content
-* Make sure site is mobile-compatible
+* Make website mobile-compatible (use media queries)
 
 
 

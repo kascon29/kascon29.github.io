@@ -6382,7 +6382,7 @@ a {
     a:focus .fa, a:hover .fa {
       color: white; }
   a .fa {
-    color: #3b5998; }
+    color: #5F4B8B; }
     a .fa:focus, a .fa:hover {
       text-decoration: none; }
 
@@ -6452,15 +6452,11 @@ h3, nav {
     color: white; }
 
 #fb {
-  transition: 0.25s; }
+  transition: 0.25s;
+  color: #5F4B8B; }
   #fb:focus, #fb:hover {
     text-decoration: none;
-    color: #6dc1dd; }
-  #fb .fa {
-    color: #3b5998; }
-    #fb .fa:focus, #fb .fa:hover {
-      text-decoration: none;
-      color: #6dc1dd; }
+    color: #240A40; }
 
 #navi {
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
