@@ -40,19 +40,23 @@
     //background-color: $motif;
 }
 
-//this is for the Facebook icon at the bottom
-
-a.fa {
-    color:#3b5998;
-    transition: 0.25s;
+a {
+    transition:0.25s;
     @include hover-focus{
         text-decoration:none;
-        color: rgb(109, 193, 221);
+        .fa{
+            color:white;
+        }
+    }
+    .fa {  
+        color:#3b5998;
+        @include hover-focus{
+            text-decoration:none;
+        }
     }
 }
 
 body {
-    //background-color: $motif; //this needs to change as appropriate to contact div
     background-color: #DCDCDC;
     font-family: 'Crimson', serif;
     h1, h2, p {
@@ -69,10 +73,10 @@ h3, nav {
     font-family: 'Avenir', sans-serif;
 }
 
-
-// .gradbg {
-//     background: linear-gradient(#240A40, $motif);
-// }
+.bg {
+    background-color: #DCDCDC;
+    padding:1rem;
+}
 
 .container {
     background-color: transparent;
@@ -89,11 +93,6 @@ h3, nav {
         color:black;
         font-family: 'Avenir', sans-serif;
     }
-}
-
-.bg {
-    background-color: #DCDCDC;
-    padding:1rem;
 }
 
 .invis{
@@ -124,28 +123,41 @@ h3, nav {
     color: white;
 }
 
+.sponsorship{
+    transition:0.25s;
+    text-align: center;
+    font-family: 'Avenir', sans-serif;
+    @include hover-focus{
+        background-color:$motif;
+        color: white;
+        p{
+            color:white;
+        }
+    }
+}
+
 #first {
-    //background: linear-gradient(#240A40, #775ea0);
     background: linear-gradient( #240A40, $motif);
     h1, p {
         color:white;
     }
 }
 
-#fourth, #sixth, #eighth {
-    background: #DCDCDC;
-}
+//this is for the Facebook icon at the bottom
 
-#second {
-    //background: #DCDCDC;
-    //background: transparent;
-    // h1, p{
-    //     color:black;
-    // }
-}
-
-#third, #fifth, #seventh {
-    background: #DCDCDC;
+#fb {
+    transition:0.25s;
+    @include hover-focus{
+        text-decoration:none;
+        color: rgb(109, 193, 221);
+    }
+    .fa {  
+        color:#3b5998;
+        @include hover-focus{
+            text-decoration:none;
+            color: rgb(109, 193, 221);
+        }
+    }
 }
 
 #navi {

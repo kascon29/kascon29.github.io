@@ -6375,12 +6375,16 @@ a.text-dark:focus, a.text-dark:hover {
   height: 150px;
   font-family: 'Avenir', sans-serif; }
 
-a.fa {
-  color: #3b5998;
+a {
   transition: 0.25s; }
-  a.fa:focus, a.fa:hover {
-    text-decoration: none;
-    color: #6dc1dd; }
+  a:focus, a:hover {
+    text-decoration: none; }
+    a:focus .fa, a:hover .fa {
+      color: white; }
+  a .fa {
+    color: #3b5998; }
+    a .fa:focus, a .fa:hover {
+      text-decoration: none; }
 
 body {
   background-color: #DCDCDC;
@@ -6395,6 +6399,10 @@ h1, h2 {
 h3, nav {
   font-family: 'Avenir', sans-serif; }
 
+.bg {
+  background-color: #DCDCDC;
+  padding: 1rem; }
+
 .container {
   background-color: transparent; }
 
@@ -6404,10 +6412,6 @@ h3, nav {
 .card-body p {
   color: black;
   font-family: 'Avenir', sans-serif; }
-
-.bg {
-  background-color: #DCDCDC;
-  padding: 1rem; }
 
 .invis {
   background: transparent; }
@@ -6432,16 +6436,31 @@ h3, nav {
   display: inline;
   color: white; }
 
+.sponsorship {
+  transition: 0.25s;
+  text-align: center;
+  font-family: 'Avenir', sans-serif; }
+  .sponsorship:focus, .sponsorship:hover {
+    background-color: #5F4B8B;
+    color: white; }
+    .sponsorship:focus p, .sponsorship:hover p {
+      color: white; }
+
 #first {
   background: linear-gradient(#240A40, #5F4B8B); }
   #first h1, #first p {
     color: white; }
 
-#fourth, #sixth, #eighth {
-  background: #DCDCDC; }
-
-#third, #fifth, #seventh {
-  background: #DCDCDC; }
+#fb {
+  transition: 0.25s; }
+  #fb:focus, #fb:hover {
+    text-decoration: none;
+    color: #6dc1dd; }
+  #fb .fa {
+    color: #3b5998; }
+    #fb .fa:focus, #fb .fa:hover {
+      text-decoration: none;
+      color: #6dc1dd; }
 
 #navi {
   -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
