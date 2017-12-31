@@ -6353,6 +6353,21 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+html {
+  font-size: 1rem; }
+
+html {
+  font-size: 0.4rem; }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 0.6rem; } }
+@media (min-width: 768px) {
+  html {
+    font-size: 0.7rem; } }
+@media (min-width: 992px) {
+  html {
+    font-size: 0.9rem; } }
 @font-face {
   font-family: 'Crimson';
   src: url("fonts/Crimson_Text/Crimson-TextRegular.ttf") format("truetype"); }
