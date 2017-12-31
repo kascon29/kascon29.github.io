@@ -405,7 +405,7 @@ h6, .h6 {
   line-height: 1.2; }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2; }
 
@@ -6364,8 +6364,8 @@ a.text-dark:focus, a.text-dark:hover {
   src: url("fonts/AvenirNext_Text/AvenirNext-DemiBold-03.ttf") format("truetype");
   font-weight: bold; }
 .anchor {
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 85px;
+  padding-bottom: 30px; }
 
 .header {
   width: 100%; }
@@ -6373,33 +6373,33 @@ a.text-dark:focus, a.text-dark:hover {
 .footer {
   color: rgba(255, 255, 255, 0.7);
   height: 150px;
-  background-color: #240A40; }
+  font-family: 'Avenir', sans-serif; }
 
 a.fa {
-  color: white;
+  color: #3b5998;
   transition: 0.25s; }
   a.fa:focus, a.fa:hover {
     text-decoration: none;
-    color: #cccccc; }
+    color: #6dc1dd; }
 
 body {
-  background-color: #240A40;
+  background-color: #DCDCDC;
   font-family: 'Crimson', serif; }
-  body h1, body h3, body p {
+  body h1, body h2, body p {
     color: white; }
 
-h1 {
+h1, h2 {
   font-family: 'Avenir', sans-serif;
   font-weight: bold; }
 
-h3, strong, nav {
+h3, nav {
   font-family: 'Avenir', sans-serif; }
 
 .container {
   background-color: transparent; }
 
 .container-fluid h1, .container-fluid p {
-  color: white; }
+  color: black; }
 
 .card-body p {
   color: black;
@@ -6416,17 +6416,28 @@ h3, strong, nav {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.purp-bg {
+  background-color: #5F4B8B;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: inline;
+  color: white; }
+
 #first {
-  background: linear-gradient(#240A40, #775ea0); }
+  background: linear-gradient(#240A40, #5F4B8B); }
+  #first h1, #first p {
+    color: white; }
 
 #fourth, #sixth, #eighth {
-  background: #5b3c8c; }
+  background: #DCDCDC; }
 
 #second {
-  background: #5b3c8c; }
+  background: #DCDCDC; }
 
 #third, #fifth, #seventh {
-  background: #775ea0; }
+  background: #DCDCDC; }
 
 #navi {
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);

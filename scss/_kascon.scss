@@ -24,8 +24,8 @@
 // a fixed nav bar at top forces us to offset our anchor from the top //
 
 .anchor {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 85px;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -35,38 +35,40 @@
 .footer {
     color: rgba(white, 0.7);
     height: 150px;
-    background-color: #240A40;
+    //background-color: #240A40;
+    font-family: 'Avenir', sans-serif;
     //background-color: $motif;
 }
 
 //this is for the Facebook icon at the bottom
 
 a.fa {
-    color:white;
+    color:#3b5998;
     transition: 0.25s;
     @include hover-focus{
         text-decoration:none;
-        color: #cccccc;
+        color: rgb(109, 193, 221);
     }
 }
 
 body {
     //background-color: $motif; //this needs to change as appropriate to contact div
-    background-color: #240A40;
+    background-color: #DCDCDC;
     font-family: 'Crimson', serif;
-    h1, h3, p {
+    h1, h2, p {
         color:white;
     }
 }
 
-h1 {
+h1, h2{
     font-family: 'Avenir', sans-serif;
     font-weight: bold;
 }
 
-h3, strong, nav {
+h3, nav {
     font-family: 'Avenir', sans-serif;
 }
+
 
 // .gradbg {
 //     background: linear-gradient(#240A40, $motif);
@@ -78,7 +80,7 @@ h3, strong, nav {
 
 .container-fluid {
     h1, p {
-        color:white;
+        color:black;
     }
 }
 
@@ -103,16 +105,30 @@ h3, strong, nav {
     background-size: cover;
 }
 
+.purp-bg {
+    background-color: $motif;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display:inline;
+    color: white;
+}
+
 #first {
-    background: linear-gradient(#240A40, #775ea0);
+    //background: linear-gradient(#240A40, #775ea0);
+    background: linear-gradient( #240A40, $motif);
+    h1, p {
+        color:white;
+    }
 }
 
 #fourth, #sixth, #eighth {
-    background: #5b3c8c;
+    background: #DCDCDC;
 }
 
 #second {
-    background: #5b3c8c
+    background: #DCDCDC;
     // background: transparent;
     // h1, p{
     //     color:black;
@@ -121,7 +137,7 @@ h3, strong, nav {
 }
 
 #third, #fifth, #seventh {
-    background: #775ea0;
+    background: #DCDCDC;
 }
 
 #navi {
