@@ -91,12 +91,21 @@ h3, nav {
     }
 }
 
+.bg {
+    background-color: #DCDCDC;
+    padding:1rem;
+}
+
+.invis{
+    background: transparent;
+}
+
 .parallax { 
     /* The image used */
     background-image: url("../img/KASCON_Logo_Sky-02.png");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 600px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -128,12 +137,11 @@ h3, nav {
 }
 
 #second {
-    background: #DCDCDC;
-    // background: transparent;
+    //background: #DCDCDC;
+    //background: transparent;
     // h1, p{
     //     color:black;
     // }
-
 }
 
 #third, #fifth, #seventh {
@@ -141,9 +149,9 @@ h3, nav {
 }
 
 #navi {
-    -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
 }
 
 #icon {
