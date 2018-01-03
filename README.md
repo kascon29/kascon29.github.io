@@ -6,11 +6,8 @@ This website for KASCON 29 was created using Bootstrap v4 by Kevin Lee. Last upd
 * [smoothscroll.js](https://github.com/cferdinandi/smooth-scroll "smoothscroll.js")
 
 ### Necessary To-Do
-* Better button for registration (same format as others)? Change the font to Avenir
 * The font is kinda small for big screens - up the size?
-* Space out the sponsorship buttons
-* Revamp hotel section and add actual content
-* Make sponsorship buttons more mobile-compatible
+* The sponsorship buttons get misaligned for certain screen sizes
 
 
 
