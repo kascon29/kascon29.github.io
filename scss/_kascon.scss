@@ -19,7 +19,7 @@ html {
   
   @include media-breakpoint-up(md) {
     html {
-      font-size: 0.7rem;
+      font-size: 0.65rem;
     }
   }
   
@@ -106,7 +106,7 @@ h3, nav {
     padding:1rem;
 }
 
-.container {
+.container, .card-group{
     background-color: transparent;
 }
 
@@ -121,6 +121,10 @@ h3, nav {
         color:black;
         font-family: 'Avenir', sans-serif;
     }
+}
+
+.card-img-top{
+    height:250px;
 }
 
 .invis{
