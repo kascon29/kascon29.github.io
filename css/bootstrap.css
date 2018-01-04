@@ -6416,7 +6416,7 @@ h3, nav {
 
 .bg {
   background-color: #DCDCDC;
-  padding: 1rem; }
+  padding-top: 1rem; }
 
 .container, .card-group {
   background-color: transparent; }
